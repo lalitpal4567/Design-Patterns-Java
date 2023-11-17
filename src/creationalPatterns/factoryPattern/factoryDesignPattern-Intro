@@ -1,0 +1,17 @@
+The Factory Design Pattern is a creational design pattern that provides an interface for creating objects in a super class,
+but allows subclasses to alter the type of objects that will be created. In other words, it provides an interface for creating
+instances of a class, but leaves the choice of its type to the subclasses.
+
+Main components of the Factory Design Pattern:
+
+(1) Product Interface/Abstract Class:
+This defines the interface or abstract class of the objects that the factory method will create.
+
+(2) Concrete Products:
+These are the actual objects that implement the Product interface or extend the Product abstract class.
+
+(3) Creator Interface/Abstract Class:
+This declares the factory method, which returns an object of type Product.
+
+(4) Concrete Creators:
+These are the classes that implement the Creator interface and override the factory method to produce specific instances of products.
